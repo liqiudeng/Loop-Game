@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Exploding Kittens</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <audio volume="0.1"id="audioPlayer" autoplay>
+        <source src="backgroundmusic.mp3" type="audio/mpeg" loop="loop" />
+      </audio>
+    </div>
+    <div>
+      <audio id="collision">
+        <source src="collision.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div>
+        <audio volume="1"id="yummy">
+          <source src="yummy.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    <h1>QuickEnemies</h1>
+    <h2>SlowEnemies</h2>
+    <h3>1 Bamboo = 30 Bonus</h3>
+    <img id="enemy1" src="images/enemy1.png"  width="75" height="100">
+    <img id="enemy2" src="images/enemy2.png"  alt="slowEnemy" width="75" height="100">
+    <img id="bonus" src="images/bonus.png" width="75" height="100">
+
+
+    <div" id="app"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/engine-utilities.js"></script>
+    <script src="js/Text.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/quickEnemy.js"></script>
+    <script src="js/slowEnemy.js"></script>
+    <script src="js/Bonus.js"></script>
+    <script src="js/Engine.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
